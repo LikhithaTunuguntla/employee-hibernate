@@ -15,10 +15,10 @@ public class Employee{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    @Column(name="employeeId")
+    @Column(name="employeeid")
     private int employeeId;
 
-    @Column(name="employeeName")
+    @Column(name="employeename")
     private String employeeName;
 
     @Column(name="email")
